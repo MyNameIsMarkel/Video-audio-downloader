@@ -49,10 +49,10 @@ pip install -r requirements.txt
 
 ### Windows
 
-Double-click `iniciar.bat`, or run:
+Double-click `Windows_start.bat`, or run:
 
 ```bash
-python descargador.py
+python downlaoder.py
 ```
 
 ### Linux / macOS
@@ -60,14 +60,14 @@ python descargador.py
 Make the launch script executable once, then run it:
 
 ```bash
-chmod +x iniciar.sh
-./iniciar.sh
+chmod +x Linux_start.bat
+./Linux_start.bat
 ```
 
 Or run it directly:
 
 ```bash
-python3 descargador.py
+python3 downlaoder.py
 ```
 
 ## How to use
@@ -82,10 +82,10 @@ python3 descargador.py
 
 ```
 .
-├── descargador.py      # Main application
+├── downlaoder.py      # Main application
 ├── requirements.txt    # Python dependencies
-├── iniciar.bat         # Launch script (Windows)
-├── iniciar.sh          # Launch script (Linux / macOS)
+├── Windows_start.bat         # Launch script (Windows)
+├── Linux_start.bat          # Launch script (Linux / macOS)
 └── README.md
 ```
 
